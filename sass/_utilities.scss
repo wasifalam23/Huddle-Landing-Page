@@ -1,0 +1,24 @@
+.btn {
+  &:link,
+  &:visited {
+    display: inline-block;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    background-color: $color-primary-pink;
+    padding: 2rem 6rem;
+    border-radius: 100px;
+    font-weight: 700;
+    transition: all 0.3s;
+
+    @media only screen and (max-width: $bp-small) {
+      padding: 2.4rem 8rem;
+    }
+  }
+
+  &:hover,
+  &:active {
+    background-color: #e64aac;
+  }
+}

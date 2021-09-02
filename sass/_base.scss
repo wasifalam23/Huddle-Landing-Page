@@ -1,0 +1,56 @@
+//COLOR VARIABLES
+$color-primary-pink: #ff52bf;
+$color-pale-cyan: #ebfbff;
+$color-dark-cyan: #00252e;
+$color-gray-blue: #808d99;
+
+//FONT VARIABLES
+$font-primary: "Open Sans", sans-serif;
+
+//BREAKPOINTS
+$bp-largest: 84em; // 1344px
+$bp-large: 75em; // 1200px
+$bp-medium: 59em; // 944px
+$bp-small: 47em; // 750px
+$bp-smallest: 34em; // 544px
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 56.25%; //1rem = 9px
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 50%; //1rem = 8px
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 62.5%; //1rem = 10px
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 50%; //1rem = 10px
+  }
+}
+
+body {
+  font-family: $font-primary;
+  line-height: 1;
+  font-weight: 400;
+}
+
+// - Font sizes (px)
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+// - Spacing system (px)
+// 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128

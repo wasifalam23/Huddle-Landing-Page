@@ -1,0 +1,54 @@
+.cta {
+  &__container {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    width: 60%;
+    border-radius: 9px;
+    transform: translate(-50%, 50%);
+    padding: 7rem 9.6rem 6rem 9.6rem;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    z-index: 9999;
+
+    @media only screen and (max-width: $bp-largest) {
+      padding-left: 6.4rem;
+      padding-right: 6.4rem;
+    }
+
+    @media only screen and (max-width: $bp-medium) {
+      padding: 6rem 4.8rem 5rem 4.8rem;
+      transform: translate(-50%, 30%);
+    }
+
+    @media only screen and (max-width: $bp-small) {
+      width: 90%;
+      padding-left: 3.2rem;
+      padding-right: 3.2rem;
+    }
+
+    @media only screen and (max-width: $bp-smallest) {
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
+    }
+  }
+
+  &__btn {
+    &:link,
+    &:visited {
+      font-size: 2.4rem;
+      padding: 3rem 8rem;
+      box-shadow: 0 8px 10px rgba(0, 0, 0, 0.15);
+
+      @media only screen and (max-width: $bp-largest) {
+        padding: 2.5rem 6rem;
+      }
+    }
+
+    &:hover,
+    &:active {
+      box-shadow: 0 2px 0px rgba(0, 0, 0, 0.15);
+    }
+  }
+}

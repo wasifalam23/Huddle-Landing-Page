@@ -1,0 +1,46 @@
+.heading {
+  &__primary {
+    font-size: 4.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.35;
+    color: $color-dark-cyan;
+    margin-bottom: 2.4rem;
+
+    @media only screen and (max-width: $bp-small) {
+      margin-bottom: 3.2rem;
+    }
+  }
+
+  &__secondary {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.1;
+
+    @media only screen and (max-width: $bp-small) {
+      font-size: 4rem;
+      margin-bottom: 2.4rem;
+    }
+  }
+
+  &__tertiary {
+    font-size: 3.6rem;
+    text-transform: capitalize;
+    margin-bottom: 4.8rem;
+    line-height: 1.2;
+
+    @media only screen and (max-width: $bp-largest) {
+      font-size: 3rem;
+    }
+  }
+}
+
+.paragraph {
+  font-size: 1.8rem;
+  color: $color-dark-cyan;
+  line-height: 1.6;
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 2.4rem;
+  }
+}
