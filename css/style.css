@@ -298,8 +298,7 @@ body {
   .footer__link:link, .footer__link:visited {
     display: inline-block;
     text-decoration: none;
-    font-size: 1.6rem;
-    color: red; }
+    font-size: 1.6rem; }
     .footer__link:link:hover, .footer__link:link:active, .footer__link:visited:hover, .footer__link:visited:active {
       text-decoration: underline; }
   .footer__nav:not(:last-child) {
