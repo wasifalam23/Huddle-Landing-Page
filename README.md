@@ -1,1 +1,3 @@
-# Huddle-Landing-Page using simple html and Css.
+# Huddle-Landing-Page
+
+A simple minimalist type landing page.
